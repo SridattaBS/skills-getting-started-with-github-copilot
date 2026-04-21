@@ -142,3 +142,45 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.activity-card .participants-list {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.activity-card .participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px dashed #eee;
+}
+
+.activity-card .participant-email {
+  font-size: 14px;
+  color: #555;
+  word-break: break-word;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.remove-participant svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.remove-participant:hover {
+  background-color: rgba(198, 40, 40, 0.06);
+}
